@@ -4,9 +4,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
+    <style>
+      .title{
+        font-size:20px;
+        font-family: cursive;
+      }
+    </style>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   </head>
-  <body>
+  <body style="background-color:paleturquoise">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Woof Clothing</a>
@@ -34,19 +40,45 @@
       </nav> 
 
       <h1>About Me</h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <h5>Alex (he/him)</h5>
+    
+      <p class="title">Alex (he/him)</p>
     <img src="https://media.istockphoto.com/id/183279907/photo/happy-young-man-gives-thumbs-up.jpg?s=612x612&w=0&k=20&c=gryk-BqPIms6eZFMApuOZRMfwIvWssdPujTgz3ryq9I="width="300">
     <div class="container text-center">
-      <div class="row border-bottom ">
-        <div class="col">
-          About The Owner
+      <div class="row">
+        <div class="col border border-primary">
+          Alex the owner of Woof Clothing went to Oakland Technical HighSchool. He has been interested in making clothing for dogs since 5th grade. In his senior year he started to make clothes for dogs in his room and sold them on the street. This led to him making a company called "Woof Clothing" and now sells clothes for dogs all over the world!
         </div>
-        <div class="col">
-          Column
+        <div class="col border border-primary">
+          Fun Facts About Alex
+<ol>
+
+  <li>
+    Alex's ideal super power is teleportation. 
+  </li>
+  <li>
+    The place where Alex dreams of living in is in a huse by himself
+  </li>
+  <li>
+    If Alex had to eat one food for the rest of his life it would be wings
+  </li>
+</ol> 
         </div>
       </div>
     </div>
+ 
+   <img id="myImage" src="https://www.boredpanda.com/blog/wp-content/uploads/2021/12/2-1-61ba43b001077__880.jpg"
+   style="width:100px">
+<button onclick="document.getElementById('MyImage').src=">Click me for a surpise</button>
+
+</script>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
   </body>
 </html>
